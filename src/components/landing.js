@@ -101,9 +101,9 @@ export default function Landing() {
                         <button onClick={onClick} className="button-more-projects">
                             {
                                 isActive ?
-                                    <img src={arrowUp} className="arrow-more" alt={"More projects button arrow up"}/>
+                                    <img src={arrowUp} className="arrow-more" alt={"Arrow up"}/>
                                     :
-                                    <img src={arrowDown} className="arrow-more" alt={"More projects button arrow down"}/>
+                                    <img src={arrowDown} className="arrow-more" alt={"Arrow down"}/>
                             }
                             3 more projects
                         </button>
