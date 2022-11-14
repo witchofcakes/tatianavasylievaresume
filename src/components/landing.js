@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import profile from "../stylesheets/profile.jpg"
 import english from "../images/english.png"
 import polish from "../images/polish.png"
 import ukrainian from "../images/ukrainian.png"
@@ -102,9 +101,9 @@ export default function Landing() {
                         <button onClick={onClick} className="button-more-projects">
                             {
                                 isActive ?
-                                    <img src={arrowUp} className="arrow-more"/>
+                                    <img src={arrowUp} className="arrow-more" alt={"More projects button arrow up"}/>
                                     :
-                                    <img src={arrowDown} className="arrow-more"/>
+                                    <img src={arrowDown} className="arrow-more" alt={"More projects button arrow down"}/>
                             }
                             3 more projects
                         </button>
@@ -232,22 +231,22 @@ export default function Landing() {
                     <div className="col-12 display-flex">
                         <div className="round-pill">
                             <p className="round-pill-text">
-                                <img src={english} className="language-flag"/>
+                                <img src={english} className="language-flag" alt={"English language"}/>
                                 English • Fluent</p>
                         </div>
                         <div className="round-pill">
                             <p className="round-pill-text">
-                                <img src={russian} className="language-flag"/>
+                                <img src={russian} className="language-flag" alt={"Russian language"}/>
                                 Russian • Fluent</p>
                         </div>
                         <div className="round-pill">
                             <p className="round-pill-text">
-                                <img src={polish} className="language-flag"/>
+                                <img src={polish} className="language-flag" alt={"Polish language"}/>
                                 Polish • Advanced</p>
                         </div>
                         <div className="round-pill">
                             <p className="round-pill-text">
-                                <img src={ukrainian} className="language-flag"/>
+                                <img src={ukrainian} className="language-flag" alt={"Ukrainian language"}/>
                                 Ukrainian • Native</p>
                         </div>
                     </div>
@@ -273,7 +272,7 @@ export default function Landing() {
                     <div className="col-lg-4 col-md-6 col-12 col-projects-margin">
                         <div className="projects-block-div pink-border">
                             <div className="project-title">
-                                Designer on Freenlance
+                                Designer on Freelance
                             </div>
                             <div className="project-short-description">
                                 Created 200+ graphic designs and videos
@@ -283,10 +282,10 @@ export default function Landing() {
                     <div className="col-lg-4 col-md-6 col-12">
                         <div className="projects-block-div blue-border">
                             <div className="project-title">
-                                <img src={medal} className="medal-smiley"/>
-                                <img src={medal} className="medal-smiley"/>
-                                <img src={medal} className="medal-smiley"/>
-                                <img src={medal} className="medal-smiley"/>
+                                <img src={medal} className="medal-smiley" alt={"First place"}/>
+                                <img src={medal} className="medal-smiley" alt={"First place"}/>
+                                <img src={medal} className="medal-smiley" alt={"First place"}/>
+                                <img src={medal} className="medal-smiley" alt={"First place"}/>
                                 Swimming
                             </div>
                             <div className="project-short-description">
@@ -304,7 +303,7 @@ export default function Landing() {
                     <div className="col-12 footer-text-div">
                         <p className="footer-text-big">
                             Made by Tatiana Vasylieva
-                            <img src={heart} className="heart-smiley"/>
+                            <img src={heart} className="heart-smiley" alt={"Heart smiley"}/>
                         </p>
                         <p className="footer-text-small">year of 2022</p>
                     </div>
