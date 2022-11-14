@@ -341,3 +341,54 @@
 .margin-top-more-projects{
     margin-top: 30px;
 }
+
+.name-login-text{
+    background: linear-gradient(270.35deg, #F300A1 -63.54%, #DC0000 11.52%, #6E00DC 97.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 33px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.input-field-text{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.password-input-field{
+    padding: 10px 15px;
+    border: 1.5px solid gray;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.password-input-field:focus{
+    border: 1.5px solid #8F00FF;
+}
+
+.title-login-text{
+    margin-bottom: 60px;
+}
+
+.submit-button{
+    background: #0075FF;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-top: 35px;
+}
+
+.container-login{
+    height: 90vh;
+}
+
+.row-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

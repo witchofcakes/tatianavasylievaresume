@@ -1,5 +1,6 @@
 import { Route, Routes} from "react-router-dom"
 import Landing from "../components/landing"
+import Login from "../components/login"
 
 export default function App() {
     return (
@@ -12,6 +13,7 @@ export default function App() {
             {/*</nav>*/}
 
             <Routes>
+                <Route path="/login" element={<Login />} />
                 <Route path="/" element={<Landing />} />
             </Routes>
         </>
